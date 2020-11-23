@@ -1,0 +1,124 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    background-image: url("Cryptocurrency.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: auto;
+    width: max-content;
+}
+.navbar > * {
+    margin: 10px;
+}
+
+button {
+    background-color: transparent;
+    height: 40px;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border: white 2px solid;
+    border-radius: 10px;
+    font-size: 17px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.homepage-heading {
+    font-size: 50px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+}
+
+#btn-get-started {
+    background-color: #8dc647;
+    border: #8dc647 2px solid;
+}
+
+.search-parameters {
+    padding: 10px;
+    margin: 20px 0 0 0;
+    color: white;
+    float: right;
+}
+
+select {
+    border-radius: 5px;
+    height: 23px;
+}
+
+.sub-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    width: max-content;
+    color: white;
+    /* border: red dashed; */
+}
+.search-parameters label, a {
+    padding: 1px;
+    margin: 1px;
+    color: white;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.card {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 10px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+.card:hover {
+    cursor: pointer;
+}
+.card img {
+    height: 80px;
+    grid-area: 1 / 1 / 4 / 2 
+}
+.table {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 75%;
+    margin: auto;
+    grid-row-gap : 5px;
+}
+.table :nth-child(2n+1) {
+    font-weight: bold;
+}
+.row {
+    color: white;
+}
+.boxDetails {
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+/* .row * {
+    margin: 0 50px;
+} */
